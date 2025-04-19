@@ -67,58 +67,6 @@ export default function Home() {
       ]
     }
   ];
-
-  const pricingPackages = [
-    {
-      title: "Basic Package",
-      price: 400,
-      period: "Per Day",
-      features: [
-        "Basic electrical repairs",
-        "Safety inspections",
-        "24/7 Support"
-      ]
-    },
-    {
-      title: "Regular Package",
-      price: 520,
-      period: "Per Day",
-      features: [
-        "Advanced repairs",
-        "Full system checkup",
-        "Priority support"
-      ]
-    },
-    {
-      title: "Premium Package",
-      price: 650,
-      period: "Per Day",
-      features: [
-        "Complete rewiring",
-        "Smart home setup",
-        "24/7 Premium support"
-      ]
-    }
-  ];
-
-  const blogPosts = [
-    {
-      title: "Spark of Inspiration: How Electrical Safety Revolutionizes Announcements",
-      image: "/blog-1.jpg",
-      date: "Mar 21, 2024"
-    },
-    {
-      title: "Switching On: Exploring the Evolution of Electric Grids",
-      image: "/blog-2.jpg",
-      date: "Mar 20, 2024"
-    },
-    {
-      title: "Lighting Up Life: Navigating the Benefits of Renewable Energy",
-      image: "/blog-3.jpg",
-      date: "Mar 19, 2024"
-    }
-  ];
-
   return (
     <>
       <Navbar />
